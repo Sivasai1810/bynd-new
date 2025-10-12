@@ -8,7 +8,8 @@ import Profile from "./assets/Profiles.svg"
 import Correct from "./assets/corrects.svg"
 import Button from "./component/button.jsx"
 import Faaq from "./FAQ/faaq"
-import Footer from "./footer/footer.jsx"
+// import Footer from "./footer/footer.jsx"
+import Footer  from "./footer/footer.jsx"
 import './App.css'
 import { useState, useEffect } from 'react'
 import Navbar from './component/navbar.jsx'

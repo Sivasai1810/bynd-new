@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .mainpage {
   background-color: #ffffff;
   max-height: 250%;
@@ -99,9 +99,10 @@
   .hero-section {
     padding: 40px 16px 24px 16px;
     background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82%, #ffffff 82%, #ffffff 100%);
-    margin-left: 16px;
-    margin-right: 16px;
-    border-radius: 12px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-radius: 0px;
+    max-width: none;
   }
 
   .hero-title {
@@ -140,8 +141,8 @@
   .hero-section {
     padding: 50px 20px 32px 20px;
     background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 85%, #ffffff 85%, #ffffff 100%);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px 20px 0 20px;
+    max-width: calc(100% - 40px);
     border-radius: 16px;
   }
 
