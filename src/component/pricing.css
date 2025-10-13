@@ -13,7 +13,6 @@
 .pricing-container {
   max-width: 1200px;
   margin: 0 auto;
- margin-left: calc(50% - 600px - 30px); 
 }
 
 .pricing-header {
