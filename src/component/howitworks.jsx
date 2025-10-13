@@ -7,7 +7,7 @@ import './howitworks.css'
 const Howitworks = () => {
   return (
     <div>
-      <div className='how-it-works-section'>
+      <div  id ='how-it-works'className='how-it-works-section'>
   <div className='how-it-works-container'>
     <div className='how-it-works-header'>
       <h2 className='how-it-works-title'>

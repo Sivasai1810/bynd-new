@@ -9,7 +9,7 @@ import './features.css'
 const Featuressection = () => {
   return (
     <div>
-      <div className='features-section'>
+      <div id='features' className='features-section'>
   <div className='features-container'>
     <div className='features-header'>
       <h2 className='features-title'>

@@ -30,7 +30,7 @@ const Faaq = () => {
   const [showanswer, setShowanswer] = useState(null);
 
   return (
-    <div className="faq-section">
+    <div id='faqs' className="faq-section">
       <div className="faq">
         <div className="faq-visual">
           <h2>Frequently asked <span>questions</span></h2>

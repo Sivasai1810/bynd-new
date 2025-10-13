@@ -5,7 +5,7 @@ import './pricing.css'
 const Pricing = () => {
   return (
     <div>
-      <div className='pricing-section'>
+      <div id='pricing' className='pricing-section'>
   <div className='pricing-container'>
     <div className='pricing-header'>
       <h2 className='pricing-title'>

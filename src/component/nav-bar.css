@@ -48,7 +48,7 @@
   gap: 42px;
 }
 
-.nav-links li a {
+.nav-links li Link {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
@@ -56,7 +56,7 @@
   transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
+.nav-links li Link:hover {
   color: #333333;
 }
 
@@ -243,7 +243,7 @@
     margin-left: 0;
   }
 
-  .nav-links li a {
+  .nav-links li Link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,32 +263,32 @@
     transition-delay: 0s;
   }
 
-  .nav-menu.active .nav-links li a {
+  .nav-menu.active .nav-links li Link {
     opacity: 1;
     transform: translateY(0);
   }
 
-  .nav-menu.active .nav-links li:nth-child(1) a {
+  .nav-menu.active .nav-links li:nth-child(1) Link {
     transition-delay: 0.1s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(2) a {
+  .nav-menu.active .nav-links li:nth-child(2) Link {
     transition-delay: 0.15s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(3) a {
+  .nav-menu.active .nav-links li:nth-child(3) Link {
     transition-delay: 0.2s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(4) a {
+  .nav-menu.active .nav-links li:nth-child(4) Link {
     transition-delay: 0.25s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(5) a {
+  .nav-menu.active .nav-links li:nth-child(5) Link {
     transition-delay: 0.3s;
   }
 
-  .nav-links li a:active {
+  .nav-links li Link:active {
     background-color: #e9ecef;
     transform: translateX(2px);
   }
@@ -379,7 +379,7 @@
     margin-left: 16px;
   }
 
-  .nav-links li a {
+  .nav-links li Link {
     font-size: 15px;
   }
 
@@ -453,7 +453,7 @@
     margin-left: 0;
   }
 
-  .nav-links li a {
+  .nav-links li Link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -473,32 +473,32 @@
     transition-delay: 0s;
   }
 
-  .nav-menu.active .nav-links li a {
+  .nav-menu.active .nav-links li Link {
     opacity: 1;
     transform: translateY(0);
   }
 
-  .nav-menu.active .nav-links li:nth-child(1) a {
+  .nav-menu.active .nav-links li:nth-child(1) Link {
     transition-delay: 0.1s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(2) a {
+  .nav-menu.active .nav-links li:nth-child(2) Link {
     transition-delay: 0.15s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(3) a {
+  .nav-menu.active .nav-links li:nth-child(3) Link {
     transition-delay: 0.2s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(4) a {
+  .nav-menu.active .nav-links li:nth-child(4) Link {
     transition-delay: 0.25s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(5) a {
+  .nav-menu.active .nav-links li:nth-child(5) Link {
     transition-delay: 0.3s;
   }
 
-  .nav-links li a:active {
+  .nav-links li Link:active {
     background-color: #e9ecef;
     transform: translateX(2px);
   }
@@ -621,7 +621,7 @@
     margin-left: 0;
   }
 
-  .nav-links li a {
+  .nav-links li Link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -641,32 +641,32 @@
     transition-delay: 0s;
   }
 
-  .nav-menu.active .nav-links li a {
+  .nav-menu.active .nav-links li Link {
     opacity: 1;
     transform: translateY(0);
   }
 
-  .nav-menu.active .nav-links li:nth-child(1) a {
+  .nav-menu.active .nav-links li:nth-child(1) Link {
     transition-delay: 0.1s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(2) a {
+  .nav-menu.active .nav-links li:nth-child(2) Link {
     transition-delay: 0.15s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(3) a {
+  .nav-menu.active .nav-links li:nth-child(3) Link {
     transition-delay: 0.2s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(4) a {
+  .nav-menu.active .nav-links li:nth-child(4) Link {
     transition-delay: 0.25s;
   }
 
-  .nav-menu.active .nav-links li:nth-child(5) a {
+  .nav-menu.active .nav-links li:nth-child(5) Link {
     transition-delay: 0.3s;
   }
 
-  .nav-links li a:active {
+  .nav-links li Link:active {
     background-color: #e9ecef;
     transform: translateX(2px);
   }

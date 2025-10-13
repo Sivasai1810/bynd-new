@@ -1,5 +1,6 @@
 import React from 'react'
 import  {useState,useEffect} from 'react'
+import { Link } from 'react-scroll'
 import Bynd from  "../assets/byndlogo.svg"
 // /byndlogo.svg"
 
@@ -35,14 +36,14 @@ const Navbar = () => {
               <div className='nav-logo'>
                 <img src={Bynd} alt='BYND' />
               </div>
-              
+              {/* to="home" smooth={true} duration={600} */}
               <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`} id='nav-menu'>
-                <ul className='nav-links'>
-                  <li><a href='#features' onClick={closeMenu}>Features</a></li>
-                  <li><a href='#how-it-works' onClick={closeMenu}>How it works</a></li>
-                  <li><a href='#faqs' onClick={closeMenu}>FAQs</a></li>
-                  <li><a href='#pricing' onClick={closeMenu}>Pricing</a></li>
-                  <li><a href='#contact' onClick={closeMenu}>Contact</a></li>
+                <ul className='nav-links' style={{cursor:'pointer'}}>
+                  <li><Link to='features' smooth={true} duration={70}onClick={closeMenu}>Features</Link></li>
+                  <li><Link to='how-it-works'smooth={true} duration={70} onClick={closeMenu}>How it works</Link></li>
+                  <li><Link to='faqs'smooth={true} duration={70} onClick={closeMenu}>FAQs</Link></li>
+                  <li><Link to='pricing'smooth={true} duration={70} onClick={closeMenu}>Pricing</Link></li>
+                  <li><Link to='contact'smooth={true} duration={70} onClick={closeMenu}>Contact</Link></li>
                 </ul>
               </div>
               

@@ -26,7 +26,7 @@ const Footer = () => {
 
   return (
     <div>
-      <div className='footers'>
+      <div id='contact' className='footers'>
         <div className='title'>
             <img src={Bynd} alt='BYND'></img>
           <p>byndhq@gmail.com</p>
