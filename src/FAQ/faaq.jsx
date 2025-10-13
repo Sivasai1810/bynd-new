@@ -20,7 +20,7 @@ const Faaq = () => {
     },
     {
       question: "Do I need to connect my Figma account to use this?",
-      answer: `'No, you don't have to connect your Figma account, just copy and paste the Figma share link'.`
+      answer: `No, you don't have to connect your Figma account, just copy and paste the Figma share link.`
     },
     {
       question: "Do you provide legal help or ownership protection?",

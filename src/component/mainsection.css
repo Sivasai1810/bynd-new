@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
 .mainpage {
   background-color: #ffffff;
   max-height: 250%;
@@ -28,7 +32,7 @@
 
 .hero-title {
   font-size: 68.2px;
-  font-weight: 700;
+  font-weight: 600;
   color: #212529;
   margin-bottom: 24px;
   line-height: 1.2;
@@ -93,20 +97,27 @@
 /* 0px - 480px - Small Mobile */
 @media screen and (max-width: 479px) {
   .mainpage {
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 12px 12px;
+ 
   }
-
   .hero-section {
-    padding: 40px 16px 24px 16px;
+        padding: 40px 12px 20px 12px;
     background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82%, #ffffff 82%, #ffffff 100%);
-    margin: 10px 0 0 0;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px; */
     width: 100%;
-    border-radius: 0px;
-    max-width: none;
+    margin: 0 auto;
   }
+  /*     padding: 50px 20px 32px 20px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 85%, #ffffff 85%, #ffffff 100%);
+    margin: 10px 20px 0 20px;
+    max-width: calc(100% - 40px);
+    border-radius: 16px; */
 
   .hero-title {
     font-size: 1.75rem;
+    font-weight: 600;
     margin-bottom: 16px;
   }
 
@@ -139,15 +150,16 @@
   }
 
   .hero-section {
-    padding: 50px 20px 32px 20px;
+    padding: 50px 16px 30px 16px;
     background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 85%, #ffffff 85%, #ffffff 100%);
-    margin: 10px 20px 0 20px;
-    max-width: calc(100% - 40px);
+    margin-left: 16px;
+    margin-right: 16px;
     border-radius: 16px;
   }
 
   .hero-title {
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 20px;
   }
 
@@ -190,6 +202,7 @@
 
   .hero-title {
     font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 22px;
   }
 
@@ -238,6 +251,7 @@
 
   .hero-title {
     font-size: 3.5rem;
+    font-weight: 600;
     margin-bottom: 24px;
   }
 
@@ -284,6 +298,7 @@
 
   .hero-title {
     font-size: 4rem;
+    font-weight: 600;
     margin-bottom: 24px;
   }
 

@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
 
 /* FAQ Section Styles */
 .faq-section {
@@ -26,7 +30,7 @@
 
 .faq-visual h2 {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #212529;
   margin: 0 0 60px 0;
   line-height: 1.2;
@@ -36,7 +40,7 @@
 
 .faq-visual h2 span {
   color: #28a745;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .faq-visual img {
@@ -65,7 +69,7 @@
 
 .faq-question {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #212529;
   display: flex;
   align-items: center;
@@ -123,6 +127,7 @@
   
   .faq-visual h2 {
     font-size: 3rem;
+    font-weight: 600;
     margin-bottom: 80px;
   }
   
@@ -138,6 +143,7 @@
   
   .faq-question {
     font-size: 1.25rem;
+     font-weight: 500;
     padding: 10px 0;
   }
   
@@ -167,6 +173,7 @@
   
   .faq-visual h2 {
     font-size: 2.25rem;
+     font-weight: 600;
     margin-bottom: 50px;
   }
   
@@ -182,6 +189,7 @@
   
   .faq-question {
     font-size: 1.1rem;
+     font-weight: 500;
     padding: 8px 0;
   }
   
@@ -215,6 +223,7 @@
   
   .faq-visual h2 {
     font-size: 2rem;
+     font-weight: 600;
     margin-bottom: 30px;
   }
   
@@ -231,6 +240,7 @@
   
   .faq-question {
     font-size: 1.05rem;
+     font-weight: 500;
     padding: 6px 0;
   }
   
@@ -272,6 +282,7 @@
     font-size: 1.5rem;
     margin-bottom: 24px;
     line-height: 1.3;
+     font-weight: 600;
   }
   
   .faq-visual img {
@@ -289,6 +300,7 @@
     font-size: 0.95rem;
     padding: 5px 0;
     line-height: 1.4;
+     font-weight: 500;
   }
   
   .faq-question img {
@@ -324,6 +336,7 @@
   
   .faq-visual h2 {
     font-size: 1.35rem;
+     font-weight: 600;
     margin-bottom: 20px;
   }
   
@@ -334,6 +347,7 @@
   
   .faq-question {
     font-size: 0.9rem;
+     font-weight: 500;
     padding: 4px 0;
   }
   

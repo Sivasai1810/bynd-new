@@ -1,8 +1,12 @@
 /* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
 .features-section {
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 180px 20px;
   position: relative;
 }
 
@@ -18,7 +22,7 @@
 
 .features-title {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #212529;
   margin-bottom: 15px;
   line-height: 1.2;
@@ -112,7 +116,7 @@
 /* 0px - 480px - Small Mobile */
 @media screen and (max-width: 479px) {
   .features-section {
-    padding: 40px 16px;
+    padding: 50px 20px;
   }
   
   .features-container {
