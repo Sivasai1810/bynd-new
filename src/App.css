@@ -26,6 +26,34 @@ body {
 }
 
 
+/* .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  size: 300px;
+}
+
+.close-btn:hover {
+  color: #000;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+} */
+
+.terms-container {
+  position: relative;
+}
 /* Footer Section Styles */
 .footers {
   background-color: #ffffff;
@@ -310,10 +338,29 @@ body {
   overflow-y: auto;
 }
 
-/* Close Button */
+
 .close-btn {
-  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  line-height: 1;
+  cursor: pointer;
+  color: #333;
+  z-index: 1000;
+  padding: 5px 10px;
+  font-weight: 300;
 }
+
+.close-btn:hover {
+  color: #000;
+}
+/* Close Button */
+/* .close-btn {
+  display: none;
+} */
 
 /* Terms Container */
 .terms-container {
