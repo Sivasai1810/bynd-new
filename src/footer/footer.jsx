@@ -74,14 +74,114 @@ const Footer = () => {
                   <h3>3. Subscription & Payments</h3>
                   <ul>
                     <li>BYND operates on a subscription-based model with monthly or annual renewal.</li>
+                    <li>Free trials may be offered for 14 days; at the end of the trial, your chosen payment method will be charged unless you cancel.</li>
+                    <li>Payments are processed via Stripe (for global payments) and Razorpay (for Indian payments). Supported cards include Visa, Mastercard, American Express, Discover, and others as provided by these processors.</li>
+                    <li>We currently accept payments in Indian Rupees (INR) and US Dollars (USD).</li>
+                    <li>No refunds are offered except as required by applicable law.</li>
+                    <li>You may cancel your subscription by logging into your account or contacting customer support.</li>
                   </ul>
+
+                  <h3>4. Prohibited Activities</h3>
+                  <ul>
+                    <li>Use the Services for any unlawful purpose.</li>
+                    <li>Advertise or offer to sell goods/services through the platform without permission.</li>
+                    <li>Sell or transfer your account.</li>
+                    <li>Post harmful, abusive, defamatory, or infringing content.</li>
+                    <li>Attempt to gain unauthorized access to BYND systems.</li>
+                  </ul>
+
+                  <h3>5. User Content</h3>
+                  <ul>
+                    <li>You may upload, post, or otherwise provide content on BYND (“User Content”).</li>
+                    <li>You retain ownership of your User Content, but grant BYND a worldwide, non-exclusive, royalty-free license to use, host, display, and distribute it as necessary to operate the Services.</li>
+                    <li>BYND is not responsible for User Content and reserves the right to remove it for violations.</li>
+                    <li>Added that uploads can be Embed Links (Figma, etc.) or Universal Formats (PDF, PNG, JPEG).</li>
+                    <li>Added a note that BYND doesn’t validate accuracy, order, or completeness of exported files — the user is responsible.</li>
+                  </ul>
+
+                  <h3>6. Service Limitations & Disclaimers</h3>
+                  <ul>
+                    <li>BYND provides tools to help you manage and track assignment submissions. However, you acknowledge and agree that:</li>
+                    <li>BYND provides view tracking (e.g., if your assignment was seen), engagement metrics (time spent, number of views), and a trackable submission experience via your dashboard.</li>
+                    <li>BYND does not guarantee that analytics will be 100% accurate at all times.</li>
+                    <li>BYND does not prevent recipients from copying, screenshotting, downloading, or otherwise retaining your submissions.</li>
+                    <li>BYND does not offer legal protection, validate originality, or enforce intellectual property rights.</li>
+                    <li>BYND is not responsible for disputes between you and recruiters, employers, or any third parties.</li>
+                    <li>Added that analytics may not be 100% accurate.</li>
+                    <li>Added that embed previews depend on third-party platforms (like Figma).</li>
+                    <li>Added that uploaded files may not render exactly the same on every browser/device.</li>
+                  </ul>
+   
+                <h3>7. Third-Party Links & Services</h3>
+                <ul>
+                  <li>BYND may link to third-party websites. We are not responsible for their content, policies, or services.</li>
+                </ul>
+  <h3>8. No Third-Party Ads</h3>
+  <ul>
+    <li>
+We do not host third-party advertisements on BYND at this time.</li>
+  </ul>
+  <h3>9. Copyright & DMCA</h3>
+  <ul>
+    <li>If you believe your copyright has been infringed, contact us at *[byndhq@gmail.com](mailto:byndhq@gmail.com)* with all necessary details.</li>
+  </ul>
+  <h3>10. SMS & Notifications</h3>
+  <ul>
+    <li>If you opt into receiving SMS messages from BYND:</li>
+    <li>Messages may include account updates, billing notices, or promotional offers.</li>
+    <li>You may opt out by replying STOP.</li>
+    <li>Message frequency may vary.</li>
+  </ul>
+  <h3>11. Limitation of Liability</h3>
+  <ul>
+    <li>To the fullest extent permitted by law:</li>
+    <li>Our liability is limited to the amount you paid us in the 12 months prior to the claim.</li>
+    <li>We are not liable for indirect, incidental, special, or consequential damages</li>
+  </ul>
+  <h3>12. Limitation Period</h3>
+  <ul>
+    <li>Any claim against BYND must be brought within one (1) year after the cause of action arose.</li>
+  </ul>
+  <h3>13. Dispute Resolution</h3>
+  <ul>
+    <li>Disputes will first be resolved through informal negotiations for 30 days.</li>
+    <li>If unresolved, disputes will be settled by binding arbitration in Bengaluru, India, in English, with one arbitrator, under the Arbitration and Conciliation Act, 1996.</li>
+  </ul>
+  <h3>14. Governing Law</h3>
+  <ul>
+    <li>These Terms are governed by the laws of India, without regard to conflict of laws principles.</li>
+  </ul>
+  <h3>15. Changes to These Terms</h3>
+  <ul>
+    <li>We may update these Terms from time to time. Users will be notified by email before changes take effect.</li>
+  </ul>
+  <h3>16. Contact Us</h3>
+   <p>BYND HQ</p>
+  <ul>
+    <li>Email: [byndhq@gmail.com]</li>
+    <li>Website: [getbynd.com]</li>
+  </ul>
+<h3>These disclaimers are fundamental to your use of BYND, and by using the Services, you agree and accept these limitations.</h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
       )}
+{/*:
 
+
+We may update these Terms from time to time. Users will be notified by email before changes take effect.
+
+16. Contact Us
+
+BYND HQ
+Email: [byndhq@gmail.com](mailto:byndhq@gmail.com)
+Website: [getbynd.com](https://getbynd.com)
+
+These disclaimers are fundamental to your use of BYND, and by using the Services, you agree and accept these limitations.
+
+ */}
       {showPrivacy && (
         <div className='modal-overlay' onClick={handleClosePrivacy}>
           <div className='modal-content' onClick={(e) => e.stopPropagation()}>
