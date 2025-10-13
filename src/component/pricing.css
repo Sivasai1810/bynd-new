@@ -16,8 +16,8 @@
 }
 
 .pricing-header {
-  position: relative;
-  left: -24px;
+  /* position: relative;
+  left: -24px; */
   text-align: left;
   margin-bottom: 40px;
   padding-left: 0;
@@ -48,6 +48,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 
 .pricing-card {
@@ -177,7 +178,7 @@
   transform: translateX(-50%);
   width: calc(100% - 64px);
   padding-top: 16.8px;
-  font-family: 'Circular Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  /* font-family: 'Circular Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; */
 }
 
 .pro-tier .plan-features .feature-item:first-child {
@@ -245,6 +246,7 @@
   .pricing-grid {
     gap: 20px;
     margin-bottom: 36px;
+    margin-left: 20px;
   }
 
   .pricing-card {
@@ -312,6 +314,7 @@
 
   .pricing-header {
     margin-bottom: 32px;
+    left: 0;
   }
 
   .pricing-title {
@@ -322,6 +325,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
     margin-bottom: 32px;
+    margin-left: 0;
   }
 
   .pricing-card {
@@ -423,17 +427,21 @@
 
   .pricing-header {
     margin-bottom: 28px;
+    left: 0;
+    padding-left: 0;
   }
 
   .pricing-title {
     font-size: 24px;
     line-height: 1.25;
+    margin-left: 0;
   }
 
   .pricing-grid {
     grid-template-columns: 1fr;
     gap: 16px;
     margin-bottom: 28px;
+    margin-left: 0;
   }
 
   .pricing-card {
