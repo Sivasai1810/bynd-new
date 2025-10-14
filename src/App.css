@@ -25,44 +25,21 @@ body {
   text-align: center;
 }
 
-
-/* .close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: transparent;
-  border: none;
-  font-size: 32px;
-  cursor: pointer;
-  color: #333;
-  z-index: 10;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  size: 300px;
-}
-
-.close-btn:hover {
-  color: #000;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 50%;
-} */
-
 .terms-container {
   position: relative;
 }
+
 /* Footer Section Styles */
 .footers {
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 80px 20px 40px;
   position: relative;
 }
 
+
 .footers > div {
-  max-width: 1200px;
+  max-width: 1260px;
+  /* margin: 0 0 0  20px; */
   margin: 0 auto;
 }
 
@@ -88,7 +65,7 @@ body {
 }
 
 .subpart {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .subpart p {
@@ -96,7 +73,7 @@ body {
   color: #333333;
   font-weight: 400;
   line-height: 1.6;
-  margin: 0 0 32px 0;
+  margin: 0 0 16px 0;
   text-align: left;
 }
 
@@ -149,10 +126,166 @@ body {
   color: #333333;
 }
 
-/* 1200px and above - Desktop */
+/* Responsive Breakpoints */
+
+/* 0px to 467px - Mobile */
+@media screen and (max-width: 467px) {
+  .footers {
+    padding: 50px 16px 30px;
+      /* margin-top: 70px; */
+  }
+  
+  .footers > div {
+    max-width: 100%;
+  }
+  
+  .title {
+    margin-bottom: 28px;
+    align-items: flex-start;
+  }
+  
+  .title img {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .title p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  
+  .subpart {
+    margin-bottom: 8px;
+  }
+  
+  .subpart p {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .footer {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer p {
+    font-size: 0.82rem;
+  }
+  
+  .footer p:last-child {
+    margin-left: 0;
+    margin-top: 6px;
+  }
+}
+
+/* 468px to 769px - Tablet Portrait */
+@media screen and (min-width: 468px) and (max-width: 769px) {
+  .footers {
+    padding: 50px 16px 30px;
+  }
+  
+  .footers > div {
+    max-width: 100%;
+  }
+  
+  .title {
+    margin-bottom: 28px;
+    align-items: flex-start;
+  }
+  
+  .title img {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .title p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  
+  .subpart {
+    margin-bottom: 12px;
+  }
+  
+  .subpart p {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .footer {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer p {
+    font-size: 0.82rem;
+  }
+  
+  .footer p:last-child {
+    margin-left: 0;
+    margin-top: 6px;
+  }
+}
+
+/* 770px to 1199px - Tablet Landscape */
+@media screen and (min-width: 770px) and (max-width: 1199px) {
+  .footers {
+    padding: 70px 24px 35px;
+  margin-top: 40px;
+  }
+  
+  .footers > div {
+    max-width: 100%;
+  }
+  
+  .title {
+    margin-bottom: 36px;
+  }
+  
+  .title img {
+    height: 38px;
+    margin-bottom: 14px;
+  }
+  
+  .title p {
+    font-size: 0.98rem;
+  }
+  
+  .subpart {
+    margin-bottom: 20px;
+  }
+  
+  .subpart p {
+    font-size: 0.98rem;
+    margin-bottom: 28px;
+  }
+  
+  .footer {
+    gap: 14px;
+  }
+  
+  .footer p {
+    font-size: 0.88rem;
+  }
+}
+
+/* 1200px and above - Large Desktop */
 @media screen and (min-width: 1200px) {
   .footers {
-    padding: 80px 40px;
+    padding: 80px 40px 40px;
+      margin-top: 60px;
+  }
+  
+  .footers > div {
+    max-width: 1323px;
   }
   
   .title img {
@@ -172,141 +305,16 @@ body {
   }
 }
 
-/* 770px to 1199px - Tablet Landscape */
-@media screen and (min-width: 770px) and (max-width: 1199px) {
+/* Extra Large Desktop - 1400px and above */
+@media screen and (min-width: 1400px) {
   .footers {
-    padding: 70px 24px;
+    padding: 90px 60px 40px;
   }
   
-  .title {
-    margin-bottom: 36px;
-  }
-  
-  .title img {
-    height: 38px;
-    margin-bottom: 14px;
-  }
-  
-  .title p {
-    font-size: 0.98rem;
-  }
-  
-  .subpart {
-    margin-bottom: 36px;
-  }
-  
-  .subpart p {
-    font-size: 0.98rem;
-    margin-bottom: 28px;
-  }
-  
-  .footer {
-    gap: 14px;
-  }
-  
-  .footer p {
-    font-size: 0.88rem;
+  .footers > div {
+    max-width: 1455px;
   }
 }
-
-/* 468px to 769px - Tablet Portrait */
-@media screen and (min-width: 468px) and (max-width: 769px) {
-  .footers {
-    padding: 50px 16px;
-  }
-  
-  .title {
-    margin-bottom: 28px;
-    align-items: flex-start;
-  }
-  
-  .title img {
-    height: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .title p {
-    font-size: 0.9rem;
-    text-align: left;
-  }
-  
-  .subpart {
-    margin-bottom: 28px;
-  }
-  
-  .subpart p {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  
-  .footer {
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer p {
-    font-size: 0.82rem;
-  }
-  
-  .footer p:last-child {
-    margin-left: 0;
-    margin-top: 6px;
-  }
-}
-
-/* 0px to 467px - Mobile */
-@media screen and (max-width: 467px) {
-  .footers {
-    padding: 50px 16px;
-  }
-  
-  .title {
-    margin-bottom: 28px;
-    align-items: flex-start;
-  }
-  
-  .title img {
-    height: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .title p {
-    font-size: 0.9rem;
-    text-align: left;
-  }
-  
-  .subpart {
-    margin-bottom: 28px;
-  }
-  
-  .subpart p {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  
-  .footer {
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer p {
-    font-size: 0.82rem;
-  }
-  
-  .footer p:last-child {
-    margin-left: 0;
-    margin-top: 6px;
-  }
-}
-
 /* Main Container */
 /* Modal Overlay */
 .modal-overlay {
@@ -380,7 +388,7 @@ body {
 }
 
 .terms-container h1 .highlight {
-  color: #10B981;
+  color: #1DBC79;
 }
 .terms-box p span{
   border-bottom: 1px solid black;
@@ -446,7 +454,7 @@ body {
 }
 
 .terms-box a:hover {
-  color: #10B981;
+  color: #1DBC79;
 }
 
 /* Section Headings */

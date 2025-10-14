@@ -6,17 +6,21 @@
 }
 .features-section {
   background-color: #ffffff;
-  padding: 180px 20px;
+/* background-color: red; */
   position: relative;
 }
 
 .features-container {
-  max-width: 1260px;
-  margin: 0 auto;
+  max-width: 1200px; 
+background-color: #ffffff;
+/* background-color: black; */
+  margin: 10px 0px auto; /* center the gray container */
+
 }
 
 .features-header {
   text-align: left;
+  /* margin-left: -7px; */
   margin-bottom: 0;
 }
 
@@ -30,7 +34,7 @@
 }
 
 .features-title .highlight {
-  color: #28a745;
+  color: #1DBC79;
 }
 
 .features-subtitle {
@@ -43,11 +47,13 @@
 }
 
 .features-grid {
+ background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 32px;
-  margin-top: 60px;
-  margin-left: 25px;
+  gap: 56px 40px; /* increased gap between cards */
+  margin-top: 160px; /* reasonable default spacing from header */
+  width: 100%; /* take full width of the container */
+  box-sizing: border-box;
 }
 
 .feature-card {
@@ -140,7 +146,7 @@
   
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 28px; /* increased mobile gap */
     margin-top: 32px;
     margin-left: 0;
   }
@@ -200,7 +206,7 @@
   
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 32px;
     margin-top: 40px;
     margin-left: 0;
   }
@@ -260,7 +266,7 @@
   
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 32px 28px;
+    gap: 44px 36px; /* larger tablet gaps */
     margin-top: 48px;
     margin-left: 0;
   }
@@ -301,7 +307,7 @@
   }
   
   .features-container {
-    max-width: 1260px;
+    max-width: 1323px; /* increased by 5% (1260 * 1.05) */
   }
   
   .features-title {
@@ -314,9 +320,9 @@
   
   .features-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px 32px;
+    gap: 56px 40px; /* larger desktop gaps */
     margin-top: 60px;
-    margin-left: 25px;
+    margin-left: 0;
   }
   
   .feature-card {
@@ -349,11 +355,11 @@
   }
   
   .features-container {
-    max-width: 1386px;
+    max-width: 1455px; /* increased by 5% (1386 * 1.05) */
   }
   
   .features-grid {
-    gap: 48px 40px;
+    gap: 64px 48px; /* extra-large desktop spacing */
     margin-top: 70px;
   }
 }

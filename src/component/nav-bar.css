@@ -79,7 +79,7 @@
 }
 
 .nav-cta-button {
-  background-color: #28a745;
+  background-color:#1DBC79;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -92,7 +92,7 @@
 }
 
 .nav-cta-button:hover {
-  background-color: #218838;
+  background-color:#1DBC79;
   transform: translateY(-1px);
 }
 
@@ -414,7 +414,7 @@
   }
 
   .nav-menu {
-    position: fixed;
+    position: absolute;
     top: 68px;
     left: 0;
     right: 0;

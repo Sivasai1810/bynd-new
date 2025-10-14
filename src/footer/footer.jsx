@@ -33,7 +33,6 @@ const Footer = () => {
         </div>
         <div className='subpart'>
           <p>BYND is in its early stages. We'd love your feedback or suggestions — email us at byndhq@gmail.com or reach out to the founder directly on <a href="https://x.com/uxayaan">X</a></p>
-          <hr></hr>
         </div>
         <div className='footer'>
           <p onClick={handleTermsClick} style={{ cursor: 'pointer'}}>Terms of use</p>
