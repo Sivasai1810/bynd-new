@@ -109,58 +109,10 @@
 
 /* Responsive Design for FAQ Section */
 
-/* Mobile Extra Small - 0px to 360px */
-@media screen and (max-width: 360px) {
+/* Mobile Extra Small - 0px to 467px */
+@media screen and (max-width: 467px) {
   .faq-section {
-    padding: 35px 10px;
-  }
-  
-  .faq {
-    max-width: 100%;
-    gap: 24px;
-  }
-  
-  .faq-visual {
-    min-height: auto;
-  }
-  
-  .faq-visual h2 {
-    font-size: 1.35rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-  
-  .faq-visual img {
-    width: 110px;
-    margin-top: 12px;
-  }
-  
-  .faq-question {
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: 4px 0;
-  }
-  
-  .faq-question img {
-    width: 18px;
-    height: 18px;
-    margin-left: 10px;
-  }
-  
-  .faq-answer {
-    font-size: 0.8rem;
-    margin-top: 10px;
-  }
-  
-  .faq-question-row {
-    padding: 10px 0;
-  }
-}
-
-/* Mobile Small - 361px to 467px */
-@media screen and (min-width: 361px) and (max-width: 467px) {
-  .faq-section {
-    padding: 40px 12px;
+    padding: 40px 16px;
   }
   
   .faq {
@@ -181,6 +133,7 @@
     margin-bottom: 24px;
     line-height: 1.3;
     font-weight: 600;
+    white-space: normal;
   }
   
   .faq-visual img {
@@ -221,7 +174,7 @@
 /* Mobile Large - 468px to 769px */
 @media screen and (min-width: 468px) and (max-width: 769px) {
   .faq-section {
-    padding: 60px 16px;
+    padding: 60px 20px;
   }
   
   .faq {
@@ -241,6 +194,7 @@
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 30px;
+    white-space: normal;
   }
   
   .faq-visual img {

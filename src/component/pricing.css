@@ -288,9 +288,9 @@
 
   .feature-textss {
     font-size: 0.75rem;
-    bottom: 16px;
+    bottom: 6px;
     width: calc(100% - 36px);
-    padding-top: 12px;
+    /* margin-top: 150px; */
   }
 
   .feature-icon {
