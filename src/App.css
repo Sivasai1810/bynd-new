@@ -80,9 +80,7 @@ body {
   border-bottom:1px solid #333333;
 }
 
-.subpart p a:hover {
-  color: #666666;
-}
+
 
 .subpart hr {
   border: none;
@@ -109,9 +107,9 @@ body {
   transition: color 0.3s ease;
 }
 
-.footer p:hover {
+/* .footer p:hover {
   color: #666666;
-}
+} */
 
 .footer p:last-child {
   cursor: default;
