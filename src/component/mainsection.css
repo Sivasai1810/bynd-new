@@ -29,7 +29,7 @@
 
 .hero-title {
   font-size: 68.2px;
-  font-weight: 600;
+  font-weight: 500;
   color: #212529;
   margin-bottom: 24px;
   line-height: 1.2;
@@ -58,7 +58,7 @@
   border-radius: 8px;
   padding: 16px 32px;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(40, 167, 69, 0.2);
@@ -114,7 +114,7 @@
 
   .hero-title {
     font-size: 1.75rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 16px;
   }
 
@@ -156,7 +156,7 @@
 
   .hero-title {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 20px;
   }
 
@@ -199,7 +199,7 @@
 
   .hero-title {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 22px;
   }
 
@@ -248,7 +248,7 @@
 
   .hero-title {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 24px;
   }
 
@@ -295,7 +295,7 @@
 
   .hero-title {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 24px;
   }
 
