@@ -162,8 +162,8 @@ body {
   .footer {
     gap: 10px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:flex-start ;
   }
   
   .footer p {
@@ -215,8 +215,8 @@ body {
   .footer {
     gap: 10px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   
   .footer p {
@@ -307,6 +307,104 @@ body {
   
   .footers > div {
     max-width: 1455px;
+  }
+}
+/* Extra Large Desktop - 1400px and above */
+@media screen and (min-width: 1400px) {
+  .footers {
+    padding: 90px 60px 40px;
+  }
+  
+  .footers > div {
+    max-width: 1455px;
+  }
+}
+
+/* 1700px - Ultra Wide Desktop */
+@media screen and (min-width: 1700px) {
+  .footers {
+    padding: 100px 80px 45px;
+    margin-top: 70px;
+  }
+  
+  .footers > div {
+    max-width: 1550px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
+  
+  .title img {
+    height: 48px;
+    width: auto;
+    margin-bottom: 18px;
+  }
+  
+  .title p {
+    font-size: 1.125rem;
+    color: #333333;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .subpart {
+    margin-bottom: 24px;
+  }
+  
+  .subpart p {
+    font-size: 1.125rem;
+    color: #333333;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+    text-align: left;
+  }
+  
+  .subpart p a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid #333333;
+  }
+  
+  .subpart hr {
+    border: none;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 0;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer p:last-child {
+    cursor: default;
+    margin-left: auto;
+  }
+  
+  .footer p:last-child:hover {
+    color: #333333;
   }
 }
 /* Main Container */

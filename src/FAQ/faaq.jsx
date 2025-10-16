@@ -24,11 +24,10 @@ const Faaq = () => {
     },
     {
       question: "Do you provide legal help or ownership protection?",
-      answer: `No, The BYND does not offer legal support or act as a legal protection service..`
+      answer: `No, The BYND does not offer legal support or act as a legal protection service.`
     },
   ]
   const [showanswer, setShowanswer] = useState(null);
-
   return (
     <div id='faqs' className="faq-section">
       <div className="faq">
