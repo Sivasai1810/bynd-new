@@ -323,7 +323,6 @@
     padding: 20px 0;
   }
 }
-
 /* Extra Large Desktop - 1400px and above */
 @media screen and (min-width: 1400px) {
   .faq-section {
@@ -333,5 +332,113 @@
   .faq {
     max-width: 1455px;
     gap: 120px;
+  }
+}
+
+/* 1700px - Ultra Wide Desktop */
+@media screen and (min-width: 1700px) {
+  .faq-section {
+    padding: 120px 80px;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .faq {
+    max-width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+  }
+  
+  .faq-visual {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    min-height: 450px;
+  }
+  
+  .faq-visual h2 {
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: #212529;
+    margin: 0 0 90px 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+  
+  .faq-visual h2 span {
+    color: #1DBC79;
+    font-weight: 600;
+  }
+  
+  .faq-visual img {
+    width: 260px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: auto;
+  }
+  
+  .faq-list {
+    flex: 1;
+    min-width: 500px;
+    text-align: left;
+  }
+  
+  .faq-question-row {
+    border-bottom: 1px solid #e9ecef;
+    padding: 22px 0;
+  }
+  
+  .faq-question-row:last-child {
+    border-bottom: none;
+  }
+  
+  .faq-question {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 12px 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .faq-question span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .faq-question img {
+    width: 26px;
+    height: 26px;
+    margin-left: 18px;
+    flex-shrink: 0;
+    filter: hue-rotate(120deg) saturate(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-question.selected img {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    font-size: 1.0625rem;
+    color: #6c757d;
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 1.65;
+    transition: all 0.3s ease;
+    padding-left: 0;
   }
 }
