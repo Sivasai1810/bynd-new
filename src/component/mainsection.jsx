@@ -17,9 +17,9 @@ const Mainsection = () => {
          Start tracking for free
        </button>
      </div>
-     <div className='dashboard-section'>
-     <img className='dashboard-image' src={Final} alt='BYND Dashboard' />
    </div>
+    <div className='dashboard-section'>
+     <img className='dashboard-image' src={Final} alt='BYND Dashboard' />
    </div>
  </div>
     </div>

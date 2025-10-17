@@ -1,4 +1,3 @@
-
 .how-it-works-section {
   background-color: #ffffff;
   padding: 80px 20px;
@@ -12,7 +11,7 @@
 
 .how-it-works-header {
   text-align: left;
-  margin-bottom: 60px;
+  margin-bottom: 36px;
 
 }
 
@@ -20,7 +19,7 @@
   font-size: 2.5rem;
   font-weight: 600;
   color: #212529;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
@@ -162,7 +161,7 @@
   }
 
   .how-it-works-header {
-    margin-bottom: 32px;
+    margin-bottom: 36px;
   }
 
   .how-it-works-title {
@@ -248,12 +247,12 @@
   }
 
   .how-it-works-header {
-    margin-bottom: 40px;
+    margin-bottom: 36px;
   }
 
   .how-it-works-title {
     font-size: 2rem;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   .how-it-works-subtitle {
@@ -330,12 +329,12 @@
   }
 
   .how-it-works-header {
-    margin-bottom: 50px;
+    margin-bottom: 36px;
   }
 
   .how-it-works-title {
     font-size: 2.25rem;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   .how-it-works-subtitle {
@@ -399,8 +398,13 @@
     max-width: 1323px; /* increased by 5% from 1260px */
   }
 
+  .how-it-works-header {
+    margin-bottom: 36px;
+  }
+
   .how-it-works-title {
     font-size: 2.5rem;
+    margin-bottom: 12px;
   }
 
   .how-it-works-subtitle {
@@ -462,9 +466,12 @@
     max-width: 1455px; /* increased by 5% from 1386px */
   }
 
+  .how-it-works-header {
+    margin-bottom: 36px;
+  }
+
   .steps-grid {
     gap: 48px 40px;
-    margin-top: 70px;
     margin-left: 0; /* aligned with heading */
   }
 }
@@ -484,14 +491,14 @@
 
   .how-it-works-header {
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 36px;
   }
 
   .how-it-works-title {
     font-size: 2.75rem;
     font-weight: 600;
     color: #212529;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     line-height: 1.2;
     letter-spacing: -0.02em;
   }
