@@ -1,6 +1,8 @@
+
+
 .mainpage {
   background-color: #ffffff;
-  max-height: 100%;
+  max-height: 250%;
   border-radius: 0 0 20px 20px;
   margin-top: 0;
   padding-top: 0;
@@ -8,17 +10,18 @@
 
 /* Hero Section Styles */
 .hero-section {
-  background-color: #f8f8f8;
-  height: auto;
-  padding: 60px 40px 380px 40px;
+  /* background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 87.5%, #ffffff 87.5%, #ffffff 100%); */
+background-color: #f8f8f8;
+  height: 1000px;
+  padding: 20px 0px 60px 0px;
   text-align: center;
   position: relative;
   border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
   max-width: calc(100% - 40px);
-  overflow: visible;
+  overflow: hidden;
 }
 
 .hero-content {
@@ -36,13 +39,13 @@
 }
 
 .hero-title .highlight {
-  color: #1DBC79;
+  color:#1DBC79;
 }
 
 .hero-subtitle {
   font-size: 1.25rem;
   color: #6c757d;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   line-height: 1.6;
   max-width: 600px;
   margin-left: auto;
@@ -71,93 +74,47 @@
 
 .dashboard-section {
   position: relative;
-  top: -280px;
-  padding: 0 10px;
+  top: -600px;
+  padding: 0px 10px;
   text-align: center;
   background-color: transparent;
   border-radius: 20px;
-  margin: 0 auto 50px auto;
+  margin: 50px auto;
   max-width: 1140px;
-  left: 0;
-  right: 0;
 }
 
 .dashboard-image {
-  max-width: 85%;
+  max-width: 95%;
   height: auto;
   border-radius: 12px;
   transition: transform 0.3s ease;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-
-  display: block;
-  margin: 0 auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* ========================================
    RESPONSIVE BREAKPOINTS
    ======================================== */
 
-/* 0px - 386px - Extra Small Mobile */
-@media screen and (max-width: 386px) {
-  .mainpage {
-    border-radius: 0 0 10px 10px;
-  }
-
-  .hero-section {
-    padding: 30px 12px 200px 12px;
-    border-radius: 16px;
-    width: calc(100% - 24px);
-    margin: 8px auto 0 auto;
-    max-width: calc(100% - 24px);
-    height: 380px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 14px;
-  }
-
-  .hero-subtitle {
-    font-size: 0.85rem;
-    margin-bottom: 16px;
-  }
-
-  .hero-cta-button {
-    padding: 10px 20px;
-    font-size: 0.85rem;
-  }
-
-  .dashboard-section {
-    top: -140px;
-    padding: 0 8px;
-    margin: 0 auto 20px auto;
-    border-radius: 16px;
-    left: 0;
-    right: 0;
-  }
-
-  .dashboard-image {
-    max-width: 85%;
-    width: 85%;
-    border-radius: 10px;
-  }
-}
-
-/* 387px - 480px - Small Mobile */
-@media screen and (min-width: 387px) and (max-width: 480px) {
+/* 0px - 480px - Small Mobile */
+ @media screen and (max-width: 479px) { 
   .mainpage {
     border-radius: 0 0 12px 12px;
+ 
   }
-
   .hero-section {
-    padding: 40px 12px 220px 12px;
-    border-radius: 18px;
-    width: calc(100% - 24px);
-    margin: 10px auto 0 auto;
-    max-width: calc(100% - 24px);
-    height: 460px;
-  }
+        padding: 40px 12px 20px 12px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82%, #ffffff 82%, #ffffff 100%);
+    /* margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px; */
+     width: 100%;
+    margin: 0 auto;
+  } 
+     /* padding: 50px 20px 32px 20px; 
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 85%, #ffffff 85%, #ffffff 100%);
+    margin: 10px 20px 0 20px;
+    max-width: calc(100% - 40px);
+    border-radius: 16px; */
 
   .hero-title {
     font-size: 1.75rem;
@@ -167,8 +124,8 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
   .hero-subtitle {
     font-size: 0.9rem;
-    margin-bottom: 18px;
-  }
+    margin-bottom: 28px;
+  } 
 
   .hero-cta-button {
     padding: 12px 24px;
@@ -176,93 +133,40 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .dashboard-section {
-    top: -200px;
-    padding: 0 10px;
-    margin: 0 auto 20px auto;
-    border-radius: 18px;
-    left: 0;
-    right: 0;
+    padding: 20px 0;
+    margin: 15px auto;
+    border-radius: 10px;
   }
 
   .dashboard-image {
-    max-width: 82%;
-    width: 82%;
-    border-radius: 12px;
+    max-width: 90%;
+    width: 90%;
   }
 }
 
-/* 481px - 517px - Mobile to Tablet Transition */
-@media screen and (min-width: 481px) and (max-width: 517px) {
+/* 480px - 768px - Mobile/Tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .mainpage {
     border-radius: 0 0 12px 12px;
   }
 
   .hero-section {
-    padding: 45px 16px 240px 16px;
-    border-radius: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 32px);
-    height: 500px;
+    padding: 50px 16px 30px 16px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 85%, #ffffff 85%, #ffffff 100%);
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 16px;
   }
 
   .hero-title {
-    font-size: 1.9rem;
-    font-weight: 500;
-    margin-bottom: 18px;
-  }
-
-  .hero-subtitle {
-    font-size: 0.95rem;
-    margin-bottom: 22px;
-  }
-
-  .hero-cta-button {
-    padding: 13px 26px;
-    font-size: 0.95rem;
-  }
-
-  .dashboard-section {
-    top: -220px;
-    padding: 0 10px;
-    margin: 0 auto 32px auto;
-    border-radius: 18px;
-    left: 0;
-    right: 0;
-  }
-
-  .dashboard-image {
-    max-width: 83%;
-    border-radius: 12px;
-  }
-}
-
-/* 518px - 672px - Tablet */
-@media screen and (min-width: 518px) and (max-width: 672px) {
-  .mainpage {
-    border-radius: 0 0 14px 14px;
-  }
-
-  .hero-section {
-    padding: 50px 18px 260px 18px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 36px);
-    height: 560px;
-  }
-
-  .hero-title {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 20px;
   }
 
   .hero-subtitle {
     font-size: 1rem;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   .hero-cta-button {
@@ -271,143 +175,89 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .dashboard-section {
-    top: -270px;
-    padding: 0 10px;
-    margin: 0 auto 32px auto;
-    max-width: 620px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
+    padding: 30px 0;
+    margin: 20px auto;
+    border-radius: 12px;
   }
 
   .dashboard-image {
-    max-width: 84%;
-    border-radius: 12px;
-  }
-}
+    max-width: 90%;
+    width: 90%;
+  } 
+} 
 
-/* 673px - 780px - Large Tablet */
-@media screen and (min-width: 673px) and (max-width: 780px) {
-  .mainpage {
-    border-radius: 0 0 14px 14px;
-  }
-
-  .hero-section {
-    padding: 55px 20px 280px 20px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 40px);
-    height: 630px;
-  }
-
-  .hero-title {
-    font-size: 2.25rem;
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
-
-  .hero-subtitle {
-    font-size: 1.05rem;
-    margin-bottom: 28px;
-  }
-
-  .hero-cta-button {
-    padding: 14px 30px;
-    font-size: 1.05rem;
-  }
-
-  .dashboard-section {
-    top: -320px;
-    padding: 0 10px;
-    margin: 0 auto 32px auto;
-    max-width: 720px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
-  }
-
-  .dashboard-image {
-    max-width: 85%;
-    border-radius: 12px;
-  }
-}
-
-/* 781px - 940px - Small Desktop */
-@media screen and (min-width: 781px) and (max-width: 940px) {
-  .mainpage {
+/* 768px - 800px - Tablet */
+@media screen and (min-width: 768px) and (max-width: 799px) { 
+   .mainpage {
     border-radius: 0 0 16px 16px;
   }
 
   .hero-section {
-    padding: 60px 25px 300px 25px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 50px);
-    height: 790px;
-  }
+    padding: 60px 20px 40px 20px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 86%, #ffffff 86%, #ffffff 100%);
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 18px;
+    max-width: calc(100% - 48px);
+  } 
 
-  .hero-title {
-    font-size: 2.75rem;
+   .hero-title {
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 22px;
   }
 
   .hero-subtitle {
     font-size: 1.1rem;
-    margin-bottom: 32px;
+    margin-bottom: 36px;
   }
 
   .hero-cta-button {
     padding: 15px 30px;
-    font-size: 1.08rem;
+    font-size: 1.05rem;
   }
 
   .dashboard-section {
-    top: -430px;
-    padding: 0 10px;
-    margin: 0 auto 40px auto;
-    max-width: 880px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
+    padding: 35px 10px;
+    margin: 30px auto;
+    max-width: 720px;
   }
 
   .dashboard-image {
-    max-width: 86%;
-    border-radius: 12px;
-  }
-}
+    max-width: 93%;
+  } 
+ } 
 
-/* 941px - 1200px - Medium Desktop */
-@media screen and (min-width: 941px) and (max-width: 1200px) {
+/* 800px and above - Decrease gray background by 5% */
+ @media screen and (min-width: 800px) {
+  .hero-section {
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82.5%, #ffffff 82.5%, #ffffff 100%);
+  } 
+ }
+/* 900px - 1200px - Small Desktop */
+ @media screen and (min-width: 900px) and (max-width: 1199px) { 
   .mainpage {
     border-radius: 0 0 18px 18px;
-      margin-bottom: -490px;
   }
 
   .hero-section {
-    padding: 70px 30px 320px 30px;
+    padding: 70px 20px 50px 20px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82.5%, #ffffff 82.5%, #ffffff 100%);
+    margin-left: 24px;
+    margin-right: 24px;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 60px);
-    height: 850px;
+    max-width: calc(100% - 48px);
   }
 
   .hero-title {
-    font-size: 3.25rem;
+    font-size: 3.5rem;
     font-weight: 500;
     margin-bottom: 24px;
   }
 
   .hero-subtitle {
     font-size: 1.15rem;
-    margin-bottom: 36px;
+    margin-bottom: 38px;
   }
 
   .hero-cta-button {
@@ -416,37 +266,29 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .dashboard-section {
-    top: -460px;
-    padding: 0 10px;
-    margin: 0 auto 40px auto;
-    max-width: 1000px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
+    padding: 40px 10px;
+    margin: 40px auto;
+    max-width: 960px;
   }
 
   .dashboard-image {
-    max-width: 87%;
-    border-radius: 12px;
+    max-width: 94%;
   }
 }
 
 /* 1200px - 1400px - Large Desktop */
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
-  .mainpage {
+ @media screen and (min-width: 1200px) and (max-width: 1399px) { 
+   .mainpage {
     border-radius: 0 0 20px 20px;
-     margin-bottom: -490px;
   }
 
   .hero-section {
-    padding: 75px 40px 340px 40px;
+    padding: 80px 40px 55px 40px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82.5%, #ffffff 82.5%, #ffffff 100%);
+    margin-left: 40px;
+    margin-right: 40px;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 80px);
     width: auto;
-    height: 950px;
   }
 
   .hero-content {
@@ -455,14 +297,14 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .hero-title {
-    font-size: 3.8rem;
+    font-size: 4rem;
     font-weight: 500;
     margin-bottom: 24px;
   }
 
   .hero-subtitle {
     font-size: 1.2rem;
-    margin-bottom: 38px;
+    margin-bottom: 40px;
   }
 
   .hero-cta-button {
@@ -471,37 +313,29 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .dashboard-section {
-    top: -520px;
-    padding: 0 10px;
-    margin: 0 auto 45px auto;
-    max-width: 1120px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
+    padding: 45px 10px;
+    margin: 45px auto;
+    max-width: 1100px;
   }
 
   .dashboard-image {
-    max-width: 88%;
-    border-radius: 12px;
-  }
-}
+    max-width: 95%;
+  } 
+ } 
 
-/* 1400px+ - Extra Large Desktop */
-@media screen and (min-width: 1401px) {
+/* Above 1400px - Extra Large Desktop */
+ @media screen and (min-width: 1400px) { 
   .mainpage {
     border-radius: 0 0 20px 20px;
-    margin-bottom: -530px;
   }
 
   .hero-section {
-    padding: 80px 60px 360px 60px;
+    padding: 90px 60px 60px 60px;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #f8f8f8 82.5%, #ffffff 82.5%, #ffffff 100%);
+    margin-left: 60px;
+    margin-right: 60px;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: calc(100% - 120px);
     width: auto;
-    height: 980px;
   }
 
   .hero-content {
@@ -525,17 +359,12 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .dashboard-section {
-    top: -530px;
-    padding: 0 10px;
-    margin: 0 auto 50px auto;
-    max-width: 1240px;
-    border-radius: 20px;
-    left: 0;
-    right: 0;
+    padding: 50px 10px;
+    margin: 50px auto;
+    max-width: 1200px;
   }
 
   .dashboard-image {
-    max-width: 88%;
-    border-radius: 12px;
-  }
+    max-width: 95%;
+  } 
 }
